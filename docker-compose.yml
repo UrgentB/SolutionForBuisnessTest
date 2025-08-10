@@ -1,0 +1,25 @@
+services:
+  solutionforbuisnesstest:
+    image: ${DOCKER_REGISTRY-}solutionforbuisnesstest
+    build:
+      context: SolutionForBuisnessTest
+      dockerfile: Dockerfile
+    depends_on:
+        - db
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgrespw
+      - POSTGRES_DB=SfBtestdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+    postgres_data:
+
+  
+    
+  

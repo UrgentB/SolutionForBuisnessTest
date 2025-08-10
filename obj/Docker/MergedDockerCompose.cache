@@ -1,0 +1,19 @@
+name: dockercompose6031803452516598029
+services:
+  solutionforbuisnesstest:
+    build:
+      context: D:\YandexDisk\Yandex.Disk\Projects\Тестовые\ООО Решения для бизнеса\SolutionForBuisnessTest\SolutionForBuisnessTest
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: solutionforbuisnesstest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose6031803452516598029_default

@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\documentincomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\documentincomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\resourceincomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\resourceincomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\models\\resourceincome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\models\\resourceincome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\dictionaryentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\dictionaryentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\services\\validation\\validationdictionaryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\services\\validation\\validationdictionaryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\services\\requestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\services\\requestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|d:\\yandexdisk\\yandex.disk\\projects\\\u0442\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u043E\u043E\u043E \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\solutionforbuisnesstest\\solutionforbuisnesstest\\controllers\\commands\\resourceincomepatchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BFB88-6CCA-6F1D-4A6B-EE019C3877D0}|SolutionForBuisnessTest\\SolutionForBuisnessTest.csproj|solutionrelative:solutionforbuisnesstest\\controllers\\commands\\resourceincomepatchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentIncomeController.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\DocumentIncomeController.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\DocumentIncomeController.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\DocumentIncomeController.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\DocumentIncomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:41:09.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResourceIncome.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Models\\ResourceIncome.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Models\\ResourceIncome.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Models\\ResourceIncome.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Models\\ResourceIncome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:38:58.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\UnitController.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\UnitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:20:42.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourceController.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\ResourceController.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\ResourceController.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\ResourceController.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\ResourceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:20:42.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationDictionaryEntry.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Services\\Validation\\ValidationDictionaryEntry.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Services\\Validation\\ValidationDictionaryEntry.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Services\\Validation\\ValidationDictionaryEntry.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Services\\Validation\\ValidationDictionaryEntry.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:14:26.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Program.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Program.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Program.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T09:46:34.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DictionaryEntryController.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\DictionaryEntryController.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\DictionaryEntryController.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\DictionaryEntryController.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\DictionaryEntryController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T09:04:27.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestResult.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Services\\RequestResult.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Services\\RequestResult.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Services\\RequestResult.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Services\\RequestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T09:00:14.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResourceIncomePatchCommand.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\Commands\\ResourceIncomePatchCommand.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\Commands\\ResourceIncomePatchCommand.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\Commands\\ResourceIncomePatchCommand.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\Commands\\ResourceIncomePatchCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:43:34.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourceIncomeController.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\ResourceIncomeController.cs",
+              "RelativeDocumentMoniker": "SolutionForBuisnessTest\\Controllers\\ResourceIncomeController.cs",
+              "ToolTip": "D:\\YandexDisk\\Yandex.Disk\\Projects\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0435\\\u041E\u041E\u041E \u0420\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u0430\\SolutionForBuisnessTest\\SolutionForBuisnessTest\\Controllers\\ResourceIncomeController.cs",
+              "RelativeToolTip": "SolutionForBuisnessTest\\Controllers\\ResourceIncomeController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAkwKkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:31:15.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

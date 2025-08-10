@@ -1,0 +1,27 @@
+name: dockercompose6031803452516598029
+services:
+  db:
+    image: postgres
+    networks:
+      default: null
+  solutionforbuisnesstest:
+    build:
+      context: D:\YandexDisk\Yandex.Disk\Projects\Тестовые\ООО Решения для бизнеса\SolutionForBuisnessTest\SolutionForBuisnessTest
+      dockerfile: Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: solutionforbuisnesstest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose6031803452516598029_default
