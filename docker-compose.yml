@@ -1,9 +1,22 @@
 services:
+  solutionforbuisnessfrontend:
+    image: ${DOCKER_REGISTRY-}solutionforbuisnessfrontend
+    build:
+      context: .
+      dockerfile: SolutionForBuisnessFrontend/Dockerfile
+    networks:
+        - frontend
+    depends_on:
+        - solutionforbuisnesstest
+
   solutionforbuisnesstest:
     image: ${DOCKER_REGISTRY-}solutionforbuisnesstest
     build:
-      context: SolutionForBuisnessTest
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: SolutionForBuisnessTest/Dockerfile
+    networks:
+        - frontend
+        - backend 
     depends_on:
         - db
   db:
@@ -16,10 +29,18 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+    networks:
+        - backend
 
 volumes:
     postgres_data:
 
+networks:
+    frontend:
+        driver: 
+            bridge 
+    backend:
+        driver: 
+            bridge
   
-    
-  
+

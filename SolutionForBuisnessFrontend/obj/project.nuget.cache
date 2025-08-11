@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U/nKmBt/jtg=",
+  "success": true,
+  "projectFilePath": "D:\\YandexDisk\\Yandex.Disk\\Projects\\Тестовые\\ООО Решения для бизнеса\\SolutionForBuisnessTest\\SolutionForBuisnessFrontend\\SolutionForBuisnessFrontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alecs\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}
