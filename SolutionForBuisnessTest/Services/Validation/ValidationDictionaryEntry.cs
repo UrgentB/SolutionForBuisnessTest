@@ -6,7 +6,6 @@ namespace SolutionForBuisnessTest.Services.Validation
 {
     public class ValidationDictionaryEntry<T>(DbSet<DictionaryEntry> set)
         : ValidationEntityWithIdentificationString<DictionaryEntry>(set) where T : DictionaryEntry
-
     {
         public override string Exist(Guid id)
         {
@@ -22,6 +21,11 @@ namespace SolutionForBuisnessTest.Services.Validation
                 : string.Empty;
         }
 
+        /// <summary>
+        /// Проверяет активность записи справочника, автоматически проверяет есть ли в справочнике данная запись
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Сообщение об ошибке или пустую строку</returns>
         public string Activity(Guid id)
         {
             var error = string.Empty;

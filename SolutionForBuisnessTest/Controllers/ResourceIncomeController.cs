@@ -55,6 +55,12 @@ namespace SolutionForBuisnessTest.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Возвращает перечисление ресурсов поступления для некоторого документа поступления
+        /// </summary>
+        /// <param name="documentIncomeId">Идентификатор документа для которого возвращается перечисление ресурсов поступления</param>
+        /// <returns>Перечисление ресурсов поступления для некоторого документа поступления</returns>
         [HttpGet]
         public IActionResult GetResourceIncomeByDocumentIncome(Guid documentIncomeId)
         {

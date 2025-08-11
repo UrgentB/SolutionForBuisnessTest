@@ -1,18 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Data.SqlClient;
 using SolutionForBuisnessTest.Models;
 using SolutionForBuisnessTest.Services;
 using SolutionForBuisnessTest.Services.DbContext;
 using SolutionForBuisnessTest.Services.Validation;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 
 namespace SolutionForBuisnessTest.Controllers
 {
     public abstract class DictionaryEntryController<T>(IDbContext dbContext) : ControllerBase where T : DictionaryEntry, new()
     {
-        private ValidationDictionaryEntry<T> _validation = new(dbContext.DictionaryEntry);
+        protected ValidationDictionaryEntry<T> _validation = new(dbContext.DictionaryEntry);
 
 
         [HttpPost]
@@ -82,7 +80,7 @@ namespace SolutionForBuisnessTest.Controllers
         }
 
         [HttpDelete]
-        public IActionResult Delete(Guid id)
+        public virtual IActionResult Delete(Guid id)
         {
             var result = new RequestResult<bool>();
             try
@@ -93,7 +91,6 @@ namespace SolutionForBuisnessTest.Controllers
                     result.Error = error;
                     return BadRequest(result);
                 }
-
                 var entry = dbContext.DictionaryEntry.OfType<T>().First(x => x.Id == id)!;
                 if (entry.Active)
                 {
