@@ -2,7 +2,8 @@
   "ContentRoots": [
     "/src/SolutionForBuisnessFrontend/wwwroot/",
     "/src/SolutionForBuisnessFrontend/obj/Debug/net9.0/compressed/",
-    "/src/SolutionForBuisnessFrontend/obj/Debug/net9.0/scopedcss/bundle/"
+    "/src/SolutionForBuisnessFrontend/obj/Debug/net9.0/scopedcss/bundle/",
+    "/.nuget/packages/blazored.toast/4.2.1/staticwebassets/"
   ],
   "Root": {
     "Children": {
@@ -42,8 +43,36 @@
         "Children": null,
         "Asset": {
           "ContentRootIndex": 1,
-          "SubPath": "3g0adrfarv-729b7hjpoz.gz"
+          "SubPath": "3g0adrfarv-48urzskbfz.gz"
         },
+        "Patterns": null
+      },
+      "_content": {
+        "Children": {
+          "Blazored.Toast": {
+            "Children": {
+              "Blazored.Toast.bundle.scp.css": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 3,
+                  "SubPath": "Blazored.Toast.bundle.scp.css"
+                },
+                "Patterns": null
+              },
+              "Blazored.Toast.bundle.scp.css.gz": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 1,
+                  "SubPath": "5pb5ikadpp-2eijknf10w.gz"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
         "Patterns": null
       },
       "lib": {

@@ -1,0 +1,165 @@
+﻿@using Blazored.Toast.Services
+@using SolutionForBuisnessFrontend.Components.Models
+@using SolutionForBuisnessFrontend.Components.Models.Commands
+@using SolutionForBuisnessFrontend.Components.Service.Repository
+@page "/Resources"
+@inject IToastService ToastService
+@inject IRepository<Resource, string, DictionaryPatchCommand> repos;
+@rendermode InteractiveServer
+
+@if (loading)
+{
+    <div>Загрузка</div>
+}
+else
+{
+    @switch(pageMode)
+    {
+        case PageMode.View:
+            <div>
+                <button @onclick="() => pageMode = PageMode.Add">Добавить</button>
+                <button @onclick="() => activeEntries = !activeEntries">@arhiveActiveButtonLabel</button>
+            </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Наименование</th>
+                    </tr>
+                    </thead>
+                    @foreach (var entry in list)
+                    {
+                        @if (activeEntries == entry.Active)
+                        {
+                            <tr>
+                                <td @onclick="() => 
+                                    { 
+                                        pageMode = PageMode.Edit; 
+                                        patchCommand = new DictionaryPatchCommand() 
+                                        { 
+                                            Id = entry.Id, 
+                                            Name = entry.Name
+                                        };
+                                        deleteCommand = entry.Id;
+                                    }">@entry.Name</td>
+                            </tr>
+                        }
+                    }
+                </table>
+            break;
+        case PageMode.Add:
+            <button @onclick="() => 
+                    { 
+                        pageMode = PageMode.View; 
+                        SaveAsync(); 
+                        postCommand = string.Empty;
+                    }"
+                    >Сохранить</button>
+            <InputText @bind-Value="postCommand"></InputText>
+            <button @onclick="() => pageMode = PageMode.View">Назад</button>
+            break; 
+        case PageMode.Edit:
+            <button @onclick="() => 
+                    { 
+                        pageMode = PageMode.View;
+                        ChangeAsync();
+                    }">Сохранить</button>
+            <button @onclick="() => 
+                    { 
+                        pageMode = PageMode.View;
+                        DeleteAsync();
+                    }">Удалить</button>
+            <InputText @bind-Value="patchCommand.Name"></InputText>
+            <button @onclick="() => pageMode = PageMode.View">Назад</button>
+            break;
+    }
+}
+
+
+@code {
+    string postCommand;
+    Guid deleteCommand;
+    DictionaryPatchCommand patchCommand;
+    PageMode pageMode = PageMode.View;
+    bool activeEntries = true;
+    bool loading = true;
+    string arhiveActiveButtonLabel => activeEntries ? "К Архиву" : "К Активным";
+    List<Resource> list;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await UpdateAsync();
+            loading = false;
+        }
+        catch (BadHttpRequestException ex)
+        {
+            ShowToast(ex.Message);
+        }
+    }
+
+    private async Task UpdateAsync()
+    {
+        list = (await repos.GetAllAsync()).ToList();
+        StateHasChanged();
+    }
+
+    private async Task SaveAsync()
+    {
+        try
+        {
+            if (postCommand != null && postCommand != string.Empty)
+            {
+                await repos.PostAsync(postCommand);
+                await UpdateAsync();
+            }
+        }
+        catch (BadHttpRequestException ex)
+        {
+            ShowToast(ex.Message);
+        }
+    }
+
+    private async Task ChangeAsync()
+    {
+        try
+        {
+            if (patchCommand.Name != null && patchCommand.Name != string.Empty)
+            {
+                await repos.PatchAsync(patchCommand);
+                await UpdateAsync();
+            }
+        }
+        catch (BadHttpRequestException ex)
+        {
+            ShowToast(ex.Message);
+        }
+    }
+
+    private async Task DeleteAsync()
+    {
+        try
+        {
+            await repos.DeleteAsync(deleteCommand);
+            await UpdateAsync();
+        }
+        catch (BadHttpRequestException ex)
+        {
+            ShowToast(ex.Message);
+        }
+    }
+
+    private void ShowToast(string message)
+    {
+        ToastService.ShowSuccess(message);
+    }
+
+    public enum PageMode
+    {
+        View,
+        Edit,
+        Add
+    }
+
+
+}

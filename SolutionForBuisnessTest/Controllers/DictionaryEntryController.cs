@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Data.SqlClient;
+using SolutionForBuisnessTest.Controllers.Commands;
 using SolutionForBuisnessTest.Models;
 using SolutionForBuisnessTest.Services;
 using SolutionForBuisnessTest.Services.DbContext;
@@ -14,7 +13,7 @@ namespace SolutionForBuisnessTest.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(string name)
+        public virtual IActionResult Create([FromBody] string name)
         {
             var result = new RequestResult<Guid>();
             try
@@ -40,7 +39,7 @@ namespace SolutionForBuisnessTest.Controllers
         }
 
         [HttpGet("id")]
-        public IActionResult Get(Guid id)
+        public virtual IActionResult Get([FromRoute] Guid id)
         {
             var result = new RequestResult<T>();
             try
@@ -64,7 +63,7 @@ namespace SolutionForBuisnessTest.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public virtual IActionResult GetAll()
         {
             var result = new RequestResult<IEnumerable<T>>();
             try
@@ -80,65 +79,30 @@ namespace SolutionForBuisnessTest.Controllers
         }
 
         [HttpDelete]
-        public virtual IActionResult Delete(Guid id)
-        {
-            var result = new RequestResult<bool>();
-            try
-            {
-                var error = _validation.Exist(id);
-                if (error != string.Empty)
-                {
-                    result.Error = error;
-                    return BadRequest(result);
-                }
-                var entry = dbContext.DictionaryEntry.OfType<T>().First(x => x.Id == id)!;
-                if (entry.Active)
-                {
-                    entry.Active = false;
-                    dbContext.Save();
-                    return Ok(result);
-                }
-
-                //так и не придумал как втисунть проверку на связанные записи в валидацию без сильных изменений
-                //но я понимаю что это нарушение Single Responsibility principle 
-                dbContext.DictionaryEntry.Remove(entry);
-                dbContext.Save();
-                return Ok(result);
-            }
-            catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && sqlEx.Number == 547)
-            {
-                result.Error = $"{typeof(T).Name} нельзя удалить - есть связанные записи";
-                return BadRequest(result);
-            } 
-            catch (Exception ex)
-            {
-                result.Error = ex.Message;
-                return BadRequest(result);
-            }
-        }
+        public abstract IActionResult Delete([FromQuery] Guid id);
 
         [HttpPatch]
-        public IActionResult ChangeName(Guid id, string newName)
+        public virtual IActionResult ChangeName([FromBody] DictionaryPatchCommand command)
         {
             var result = new RequestResult<bool>();
             try
             {
-                string error = _validation.Exist(id);
+                string error = _validation.Exist(command.Id);
                 if (error != string.Empty)
                 {
                     result.Error = error;
                     return BadRequest(result);
                 }
 
-                error = _validation.AlreadyExists(newName);
+                error = _validation.AlreadyExists(command.Name);
                 if (error != string.Empty)
                 {
                     result.Error = error;
                     return BadRequest(result);
                 }
 
-                var entry = dbContext.DictionaryEntry.OfType<T>().First(x => x.Id == id)!;
-                entry.IdentificationString = newName;
+                var entry = dbContext.DictionaryEntry.OfType<T>().First(x => x.Id == command.Id)!;
+                entry.IdentificationString = command.Name;
                 dbContext.Save();
                 return Ok(result);
             }

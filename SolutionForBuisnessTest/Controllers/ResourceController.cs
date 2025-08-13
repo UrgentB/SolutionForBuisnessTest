@@ -10,8 +10,8 @@ namespace SolutionForBuisnessTest.Controllers
     [ApiController]
     public class ResourceController(IDbContext dbContext) : DictionaryEntryController<Resource>(dbContext)
     {
-        [HttpDelete]
-        public override IActionResult Delete(Guid id)
+        [HttpDelete("{id}")]
+        public override IActionResult Delete([FromRoute] Guid id)
         {
             var result = new RequestResult<bool>();
             try
@@ -24,7 +24,7 @@ namespace SolutionForBuisnessTest.Controllers
                 }
 
                 error = _validation.ResourceUsedByResourceIncome(id, dbContext.ResourceIncomes);
-                var entry = dbContext.Units.Find(id)!;
+                var entry = dbContext.Resources.Find(id)!;
                 if (error != string.Empty)
                 {
                     entry.Active = false;
