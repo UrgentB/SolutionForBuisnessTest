@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace SolutionForBuisnessTest.Models
 {
@@ -9,6 +10,8 @@ namespace SolutionForBuisnessTest.Models
         [Key]
         [Column("ID")]
         public Guid Id { get; set; }
+
+        [JsonPropertyName("Number")]
         [Column("NUMBER")]
         public string IdentificationString { get; set; }
         [Column("DATE")]

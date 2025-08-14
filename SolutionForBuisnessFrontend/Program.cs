@@ -20,6 +20,8 @@ builder.Services.AddBlazoredToast();
 
 builder.Services.AddTransient(typeof(IRepository<Resource, string, DictionaryPatchCommand>),
     typeof(DictionaryRepository<Resource>));
+builder.Services.AddTransient(typeof(IRepository<Unit, string, DictionaryPatchCommand>),
+    typeof(DictionaryRepository<Unit>));
 
 var app = builder.Build();
 

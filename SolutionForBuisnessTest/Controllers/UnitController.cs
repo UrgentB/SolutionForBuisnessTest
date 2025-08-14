@@ -13,8 +13,8 @@ namespace SolutionForBuisnessTest.Controllers
     [ApiController]
     public class UnitController(IDbContext dbContext) : DictionaryEntryController<Unit>(dbContext)
     {
-        [HttpDelete]
-        public override IActionResult Delete(Guid id)
+        [HttpDelete("{id}")]
+        public override IActionResult Delete([FromRoute] Guid id)
         {
             var result = new RequestResult<bool>();
             try
@@ -36,7 +36,7 @@ namespace SolutionForBuisnessTest.Controllers
                     return BadRequest(result);
                 }
 
-                dbContext.DictionaryEntry.Remove(entry);
+                dbContext.Units.Remove(entry);
                 dbContext.Save();
                 return Ok(result);
             }

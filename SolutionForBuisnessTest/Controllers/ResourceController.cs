@@ -33,7 +33,7 @@ namespace SolutionForBuisnessTest.Controllers
                     return BadRequest(result);
                 }
 
-                dbContext.DictionaryEntry.Remove(entry);
+                dbContext.Resources.Remove(entry);
                 dbContext.Save();
                 return Ok(result);
             }

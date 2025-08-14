@@ -8,17 +8,20 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="nav flex-column">
+        
+        <div>
+            <h5 style="color: #d7d7d7;">Справочники</h5>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="Resources">
+                   Ресурсы
+                </NavLink>
+            </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="Resources">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Ресурсы
-            </NavLink>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="Units">
+                    Единицы измерения
+                </NavLink>
+            </div>
         </div>
     </nav>
 </div>
